@@ -1,17 +1,20 @@
 {
-  "name": "utils",
+  "name": "zks-utils",
   "version": "1.0.0",
   "description": "发布npm包",
-  "main": "index.js",
+  "main": "./dist/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "build:watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KringZhang/utils.git"
   },
-  "keywords": [],
+  "keywords": [
+    "format"
+  ],
   "author": "Kring",
   "license": "ISC",
   "bugs": {

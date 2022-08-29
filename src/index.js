@@ -1,2 +1,3 @@
 import { formatAmount } from './util'
-console.log(formatAmount(234.124, 2, '/'))
+export { formatAmount }
+console.log(567)
