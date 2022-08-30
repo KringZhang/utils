@@ -1,6 +1,6 @@
 {
   "name": "zks-utils",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "发布npm包",
   "main": "./dist/bundle.js",
   "scripts": {
@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/KringZhang/utils#readme",
   "dependencies": {
+    "core-js": "^3.25.0",
     "webpack": "^5.74.0",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.3"
+    "webpack-cli": "^3.3.12"
   }
 }
